@@ -1,0 +1,13 @@
+FROM  italiangrid/build-centos6
+
+run yum -y install pkgconfig \
+  globus-gssapi-gsi-devel \
+  globus-gss-assist-devel \
+  gsoap-devel \
+  CGSI-gSOAP-devel \
+  voms
+user build
+add Makefile ./storm-srm-client.spec.in /home/build/
+workdir /home/build
+
+cmd /bin/bash -c make
