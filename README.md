@@ -10,6 +10,7 @@ to generate packages for storm-client version >=  1.x.x.
 
 - RPM-based
 	- centos6
+	- centos7
 
 ## Usage 
 

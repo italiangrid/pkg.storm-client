@@ -1,15 +1,17 @@
-# RPM packaging for  StoRM Native Libs
+# RPM packaging for StoRM Client
 
 ## Usage
 
 `build-images.sh` builds the Docker images used to create the packages:
 
 
-- `italiangrid/pkg.storm-client:centos6`
+- `italiangrid/pkg.storm-client:centos6
+- `italiangrid/pkg.storm-client:centos7
 
 These images depend on the following common images:
 
 - italiangrid/build-centos6
+- italiangrid/build-centos7
 
 `push-images.sh` pushes the images to a private Docker registry whose host
 must be defined with the `DOCKER_REGISTRY_HOST` environment variable.
