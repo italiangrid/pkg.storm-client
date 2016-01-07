@@ -100,8 +100,3 @@ rm -rf $RPM_BUILD_ROOT
 * Tue Apr 05 2011 Elisabetta Ronchieri> <elisabetta.ronchieri@cnaf.infn.it> - 1.5.0
 - Removed prefix
 - Updated requires
-
-* Fri Feb 24 2011 Elisabetta Ronchieri> <elisabetta.ronchieri@cnaf.infn.it> - 1.5.0
-- Renamed binary file
-- Used Fedora Guidelines
-- changed package name
